@@ -1,6 +1,49 @@
 #top
 {
-    font-size: xxx-large;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: xx-large;
+}
+
+nav .navbar-brand .grey
+{
+    color: grey
+}
+
+nav .navbar-brand .red
+{
+    color: red
+}
+
+nav .navbar-brand .orange
+{
+    color: orange
+}
+
+nav .navbar-brand .yellow
+{
+    color: #d9d918
+}
+
+nav .navbar-brand .green
+{
+    color: green
+}
+
+nav .navbar-brand .blue
+{
+    color: blue
+}
+
+nav .navbar-brand .indigo
+{
+    color: indigo
+}
+
+nav .navbar-brand .violet
+{
+    color: violet
+}
+
+.wrapper
+{
+    text-align: center;
 }

@@ -17,9 +17,27 @@
 
         <nav class="navbar bg-light navbar navbar-expand-md navbar-light">
             <div class="container-fluid">
-              <span class="navbar-brand" id="top">Budget Tracker</span>
+              <a class="navbar-brand" id="top" href="/"><span class="grey">Budget </span><span class="red">T</span><span class="orange">r</span><span class="yellow">a</span><span class="green">c</span><span class="blue">k</span><span class="indigo">e</span><span class="violet">r</span></a>
+
+              <ul class="navbar-nav ms-auto mt-2">
+                <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="/login">Log In</a></li>
             </div>
           </nav>
+          <br>
+          <br>
+          <br>
+          <form action="/login" method="post">
+            <div class="mb-3">
+                <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="username" name="username" placeholder="Username" type="text">
+            </div>
+            <div class="mb-3">
+                <input class="form-control mx-auto w-auto" id="password" name="password" placeholder="Password" type="password">
+            </div>
+            <div class="wrapper">
+              <button class="btn btn-primary" type="submit">Log In</button>
+            </div>
+        </form>
 
     </body>
 
